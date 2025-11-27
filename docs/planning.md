@@ -51,10 +51,16 @@ Because Bristol’s health establishment data is public, the local authority wou
 
 
 ### Options Considered
-TODO: What are some other customer options or leading products that address the same needs?
+In the UK, several clinic and practice management tools address needs similar to Health Hub. MediOffice serves small clinics with appointment scheduling, clinical records, invoicing, reporting, and paperless workflows. PracticePal offers diary management, patient databases, reminders, and optional modules like online booking and invoices. ClinicOffice targets private GPs, physiotherapists, and cosmetic clinics, providing multi-site support, document storage, invoicing, and reminders. WriteUpp focuses on therapy and wellbeing practices with video consultations, bookings, notes, and invoicing. Emerging platforms like ClinWell support NHS and private practices with scheduling, EMR, telehealth, and mobile integration. Larger systems such as EMIS Health and SystmOne serve established GP practices but are often complex for small clinics.
+
+These tools show there is demand for digital solutions, but small clinics may face complexity or high costs. Health Hub could differentiate itself by being simple, affordable, and designed for fragmented clinics across multiple types, especially those currently relying on manual systems.
 
 ### Expected Risks
-TODO: What are the main risks of this project?
+A major concern is protecting patient data, since weak security can lead to breaches or misuse. Another challenge is getting different clinics to work smoothly on one system, as their records and workflows often vary. Some staff may resist using the app if it feels confusing or disruptive.
+
+There is also the risk of downtime. If the app stops working, clinics cannot check records, manage appointments, or track supplies, which can lead to mistakes. The system must follow rules like GDPR and keep proper logs, or clinics could face legal issues. Costs can also be a challenge, since small practices have tight budgets and ongoing updates may add pressure.
+
+The app must stay simple, or staff may return to paper. With many clinics entering information, data errors can slip in and affect reports needed by local authorities. Patients also need clarity on how their data is shared. Finally, clinics may worry about depending on a single vendor, especially if long-term support is uncertain.
 
 ## Project Scope
 TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
