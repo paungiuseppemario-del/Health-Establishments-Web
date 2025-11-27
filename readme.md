@@ -1,4 +1,4 @@
-# Bike Pump Finder
+# Health-Establishments
 
 This App allows cylists to find nearby public bike-pumps and tools while they are on the road. 
 It uses Public [Bike Pump Data](https://opendata.bristol.gov.uk/explore/dataset/public-bike-pumps/information/) 
