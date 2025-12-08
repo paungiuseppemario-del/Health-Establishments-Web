@@ -44,6 +44,7 @@ TODO: Describe each use case (one per team member).
 
 
 TODO: Your Use-Case diagram should include all use-cases.
+2 use cases
 
 ![Insert your Use-Case Diagram Here](images/use-case.png)
 
@@ -54,19 +55,19 @@ TODO: create a list of functional requirements.
     Give each functional requirement a unique ID. e.g. FR1, FR2, ...
     Indicate which UC the requirement comes from.
     
-* FR1: The system must provide a menu of available options (from UC1)
-* FR2: The system must request permission to access user location (from UC1)
-* FR3: The system must get the user location from the geolocation object (from UC1)
-* FR4: The system must get nearest public bike pumps from database (from UC1)
-* FR5: The system must show a table of the nearest bike pumps (from UC1)
-* FR6: The system could request a post-code from the user to determine their location (from UC1)
+* FR1: The system must  
+* FR2: The system must  
+* FR3: The system must 
+* FR4: The system must
+* FR5: The system must 
+* FR6: The system could 
 
 <dl><dt>FR1:</dt><dd>The system shall provide a menu of available options</dd>
     <dt>FR2:</dt><dd>The system shall request permission to access user location</dd>
     <dt>FR3:</dt><dd>The system shall get nearest public bike pumps from database</dd>
     <dt>FR4:</dt><dd>The system shall show a table of the nearest bike pumps</dd>
 </dl>
-
+2 use cases
 
 ### Non-Functional Requirements
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
