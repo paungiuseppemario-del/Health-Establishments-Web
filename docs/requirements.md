@@ -3,6 +3,7 @@
 ## User Needs
 
 ### Actors
+Actors would use this with booking appointments, checking for opening times, checking nearests farmacies. 
 TODO: List and describe the actors/users for this product.
 
 ### User stories
