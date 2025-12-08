@@ -19,23 +19,23 @@ Outcome:
 
 ### Business benefits
 Saves Time & Reduces Paperwork
-Because there are many establishments (from the dataset), each likely using manual methods, your app would reduce redundant efforts across many sites.
+Because there are many establishments (from the dataset), each likely using manual methods, our app would reduce redundant efforts across many sites.
 Fewer Mistakes & Data Loss
 With many facilities scattered across areas (as shown in the addresses), data consistency is a challenge. A central app helps standardize records.
 Better Patient Care
-The dataset can show how many types of clinics exist (general practice, dental, etc.). Your app ensures each kind gets relevant features to serve their patients better.
+The dataset can show how many types of clinics exist (general practice, dental, etc.). Our app ensures each kind gets relevant features to serve their patients better.
 Improved Communication & Reminders
 With many establishments, a unified app ensures consistent reminder systems across sites.
 Easy Reporting
-Because the dataset is publicly available (i.e., there is public interest in tracking health facilities), regulators may expect reporting. Your app helps each establishment generate those reports easily.
+Because the dataset is publicly available (i.e., there is public interest in tracking health facilities), regulators may expect reporting. Our app helps each establishment generate those reports easily.
 Inventory Control
-Small clinics (visible in the dataset) may not have high-level inventory software. Your app could serve this underserved segment.
+Small clinics (visible in the dataset) may not have high-level inventory software. Our app could serve this underserved segment.
 Data Security
-With many small establishments, the risk of data breaches is higher if they don’t have robust systems. Your app offers a secure solution.
+With many small establishments, the risk of data breaches is higher if they don’t have robust systems. Our app offers a secure solution.
 Cost-Effective
 The large number of establishments in the dataset means economies of scale: a shared app is more economical than many bespoke systems.
 User-Friendly
-Because many establishments are small, their staff may not be tech-savvy. The dataset’s breadth suggests you need a flexible, easy UI.
+Because many establishments are small, their staff may not be tech-savvy. The dataset’s breadth suggests we need a flexible, easy UI.
 
 
 
