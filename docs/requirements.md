@@ -11,8 +11,6 @@ TODO: List and describe the actors/users for this product.
 . Nurses
 
 ### User stories
-TODO: Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
-    Express these in the form from agile development:- As a (role) I want (goal) so that (benefit). 
 Patients would use this to be able to find appointments, closest pharmacies, gps etc.
 Doctors/nurses would use this to manage and see appointments they are booked in for, patient medical history.
 Pharmasists would use this to manage someones medication, find local pharmacies for patients if they dont have stock of a certain medication, check patients medical history for allergies or previous medication taken.
