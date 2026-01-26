@@ -64,4 +64,5 @@ The app must stay simple, or staff may return to paper. With many clinics enteri
 
 ## Project Scope
 TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/75808a16-8aba-4f4e-ac43-e43de1997856" />
+<img width="1112" height="697" alt="image" src="https://github.com/user-attachments/assets/b6b26112-64ad-4d35-9676-6520041c6d84" />
+
