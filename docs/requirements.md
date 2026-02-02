@@ -66,19 +66,13 @@ TODO: create a list of functional requirements.
     Give each functional requirement a unique ID. e.g. FR1, FR2, ...
     Indicate which UC the requirement comes from.
     
-* FR1: The system must  detect user location
-* FR2: The system must  include manual location entry
-* FR3: The system must be able to search by facility type
-* FR4: The system must include a keyword search
-* FR5: The system must include a radius selection
-* FR6: The system could auto expand search
+* FR1: The system must  detect user location (uc1+2)
+* FR2: The system must  include manual location entry(uc1+2)
+* FR3: The system must be able to search by facility type(uc1+2)
+* FR4: The system must include a keyword search(uc1+2)
+* FR5: The system must include a radius selection(uc1+2)
+* FR6: The system could auto expand search(uc1+2)
 
-<dl><dt>FR1:</dt><dd>The system shall provide a menu of available options</dd>
-    <dt>FR2:</dt><dd>The system shall request permission to access user location</dd>
-    <dt>FR3:</dt><dd>The system shall get nearest Pharmacies pumps from database</dd>
-    <dt>FR4:</dt><dd>The system shall show a table of the nearest Pharmacies</dd>
-</dl>
-2 use cases
 
 ### Non-Functional Requirements
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
@@ -86,8 +80,8 @@ Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
 
 Indicate which UC the requirement comes from.
 
-* NFR1: It should display up to 10 of the nearest bike pumps on one page (usability) (UC1)
-* NFR2: It must assume a sensible default on a browser with no user geolocation (reliability) (UC2)
-* NFR3: The listed bike pumps should be no further than 1 mile from the cyclist (usability) (UC1,UC2)
-* NFR4: The App should work on Android (Portability)
+* NFR1: the system shall return results within 2 seconds.
+* NFR2: The syststem shall be available 99.5% of the time.
+* NFR3: The system should be able to find a nearby medical facility in no more than 3 interactions
+* NFR4: The system should be accessible on all devices.
 
