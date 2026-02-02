@@ -10,6 +10,7 @@ TODO: List and describe the actors/users for this product.
 . Pharmasists
 . Nurses
 
+
 ### User stories
 Patients would use this to be able to find appointments, closest pharmacies, gps etc.
 Doctors/nurses would use this to manage and see appointments they are booked in for, patient medical history.
@@ -19,12 +20,12 @@ TODO: Describe each use case (one per team member).
     Give each use case a unique ID, e.g. UC1, UC2, ...
     Summarise these using the use-case template below.
 
-| USE-CASE | UC1: Find nearest public bike pump | 
+| USE-CASE | UC1: Find nearest pharmacy | 
 | -------- | ---------------------------------- |
-| **Description** | As a cyclist I want to find my nearest public bike pump. |
-| **Actors** | cyclist |
+| **Description** | As a Patient I would like to be able to find the nearest pharmasies to me|
+| **Actors** |Patient |
 | **Assumptions** | Browser supports geo-location |
-| **Steps** | <ol><li>Opt to view table of bike pumps</li><li>Request permission to access user location</li><li>Give permission for geo-location</li><li>Get nearest public bike pumps from database</li><li>View table of nearest bike pumps</li></ol> |
+| **Steps** | <ol><li>Opt to view map of Pharmacies</li><li>Request permission to access user location</li><li>Give permission for geo-location</li><li>Get nearest pharmacies from database</li><li>View table of nearest Pharmacies</li></ol> |
 | **Variations** | Browser doesn't support geo-location |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
@@ -62,8 +63,8 @@ TODO: create a list of functional requirements.
 
 <dl><dt>FR1:</dt><dd>The system shall provide a menu of available options</dd>
     <dt>FR2:</dt><dd>The system shall request permission to access user location</dd>
-    <dt>FR3:</dt><dd>The system shall get nearest public bike pumps from database</dd>
-    <dt>FR4:</dt><dd>The system shall show a table of the nearest bike pumps</dd>
+    <dt>FR3:</dt><dd>The system shall get nearest Pharmacies pumps from database</dd>
+    <dt>FR4:</dt><dd>The system shall show a table of the nearest Pharmacies</dd>
 </dl>
 2 use cases
 
