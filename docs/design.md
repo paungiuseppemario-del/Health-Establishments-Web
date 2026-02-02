@@ -1,6 +1,8 @@
 # Design
 
 ## Behavioural design
+
+
 TODO: Describe a concrete scenario for each use-case. 
 Describe it in terms of interactions between the components introduces above, and the actors introduced in your requirements.
 
