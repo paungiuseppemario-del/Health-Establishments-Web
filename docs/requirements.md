@@ -27,19 +27,31 @@ TODO: Describe each use case (one per team member).
 | **Assumptions** | Browser supports geo-location |
 | **Steps** | <ol><li>Opt to view map of Pharmacies</li><li>Request permission to access user location</li><li>Give permission for geo-location</li><li>Get nearest pharmacies from database</li><li>View table of nearest Pharmacies</li></ol> |
 | **Variations** | Browser doesn't support geo-location |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Non-functional** | Performance: Return results within 2 seconds for typical searches.
+Security/Privacy: Location used only for this search, not stored without consent; comply with GDPR; use HTTPS.
+Availability: 99.5%+ uptime for the pharmacy search service.
+Accessibility: WCAG 2.1 AA (keyboard navigation, screen reader labels for map/list).
+Usability: Clear permission rationale; provide manual search alternative.
+Reliability: Handle permission denial/timeouts gracefully; show meaningful errors.
+Scalability: Support spikes (e.g., seasonal demand) without major degradation. |
+| **Issues** | Define default search radius and max expansion. Confirm required pharmacy attributes (opening hours, services like “late-night”, “delivery”). Decide which map provider is used and any licensing constraints. Define data refresh frequency and source of truth for pharmacy listings. Decide whether to support “open now” and filters (distance, services). 
 
+| USE-CASE | UC1: Find nearest facilities | 
+| -------- | ---------------------------------- |
+| **Description** | As a doctor or nuse I would like to be able to find the nearest pharmacy/hospital/GP etc.|
+| **Actors** |Doctor/nurse|
+| **Assumptions** | Browser supports geo-location |
+| **Steps** | <ol><li>Opt to view map of facilities</li><li>Request permission to access user location</li><li>Give permission for geo-location</li><li>Get nearest facilities from database</li><li>View table of nearest nearest facilities</li></ol> |
+| **Variations** | Browser doesn't support geo-location |
+| **Non-functional** | Performance: Return results within 2 seconds for typical searches.
+Security/Privacy: Location used only for this search, not stored without consent; comply with GDPR; use HTTPS.
+Availability: 99.5%+ uptime for the pharmacy search service.
+Accessibility: WCAG 2.1 AA (keyboard navigation, screen reader labels for map/list).
+Usability: Clear permission rationale; provide manual search alternative.
+Reliability: Handle permission denial/timeouts gracefully; show meaningful errors.
+Scalability: Support spikes (e.g., seasonal demand) without major degradation. |
+| **Issues** | Define default search radius and max expansion. Confirm required facilities attributes (opening hours, services like “late-night”, “delivery”). Decide which map provider is used and any licensing constraints. Define data refresh frequency and source of truth for facilities listings. Decide whether to support “open now” and filters (distance, services). 
 
-| TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
-| -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 
 TODO: Your Use-Case diagram should include all use-cases.
@@ -54,12 +66,12 @@ TODO: create a list of functional requirements.
     Give each functional requirement a unique ID. e.g. FR1, FR2, ...
     Indicate which UC the requirement comes from.
     
-* FR1: The system must  
-* FR2: The system must  
-* FR3: The system must 
-* FR4: The system must
-* FR5: The system must 
-* FR6: The system could 
+* FR1: The system must  detect user location
+* FR2: The system must  include manual location entry
+* FR3: The system must be able to search by facility type
+* FR4: The system must include a keyword search
+* FR5: The system must include a radius selection
+* FR6: The system could auto expand search
 
 <dl><dt>FR1:</dt><dd>The system shall provide a menu of available options</dd>
     <dt>FR2:</dt><dd>The system shall request permission to access user location</dd>
