@@ -57,7 +57,8 @@ Scalability: Support spikes (e.g., seasonal demand) without major degradation. |
 TODO: Your Use-Case diagram should include all use-cases.
 2 use cases
 
-![Insert your Use-Case Diagram Here](images/use-case.png)
+<img width="307" height="529" alt="Untitled" src="https://github.com/user-attachments/assets/d4e18253-3182-4152-8a78-cc2727c27841" />
+
 
 ## Software Requirements Specification
 ### Functional requirements
