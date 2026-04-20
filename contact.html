@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Facilities Bristol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <a href="home.html" id="logo-link">
+        <img src="Images/logo.png" alt="Medical Facilities Bristol logo">
+    </a>
+    <input type="text" id="search" placeholder="Search here...">
+    <nav class="navigation">
+        <a href="home.html" id="home">Home</a>
+        <a href="map.html" id="nav-map">Map</a>
+        <a href="Table-of-Locations.html" id="table">Table of Locations</a>
+    </nav>
+</header>
+<main>
+    <form id="contact-form">
+        <h1>Contact us</h1>
+        <p>If any location is missing, please let us know and we will add it to the map and table.</p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email address:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required>
+        <label for="facility">Medical facility name:</label>
+        <input type="text" id="facility" name="facility" required>
+        <input type="submit" value="Submit">
+    </form>
+</main>
+<script src="script.js"></script>
+<footer>
+    <div class="footer">
+        <p>2024 Medical Facilities Bristol. All rights reserved.</p>
+        <p>All data provided by Open Data Bristol.</p>
+    </div>
+</footer>
+</body>
+</html>

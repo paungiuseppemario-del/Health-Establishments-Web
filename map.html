@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Facilities Bristol</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        #map { width: 100%; height: 70vh; margin: 1rem 0; }
+        .search-panel { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; margin: 1rem 0; }
+        .search-panel input { flex: 1 1 250px; padding: 0.5rem; }
+        .search-panel button { padding: 0.6rem 1rem; cursor: pointer; }
+    </style>
+</head>
+<body>
+<header>
+    <a href="home.html" id="logo-link">
+        <img src="Images/logo.png" alt="Medical Facilities Bristol logo">
+    </a>
+    <input type="text" id="search" placeholder="Search here...">
+    <nav class="navigation">
+        <a href="home.html" id="home">Home</a>
+        <a href="map.html" id="nav-map">Map</a>
+        <a href="Table-of-Locations.html" id="table">Table of Locations</a>
+    </nav>
+</header>
+<main>
+    <section class="search-panel">
+        <input type="text" id="locationInput" placeholder="Please enter a location...">
+        <input type="text" id="facilityInput" placeholder="Please enter a facility type...">
+        <button type="button" onclick="runSearch()">Search</button>
+      
+    </section>
+    <div id="map"></div>
+</main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="script2.js"></script>
+<footer>
+    <div class="footer">
+        <p>2024 Medical Facilities Bristol. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>

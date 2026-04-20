@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table of Locations - Medical Facilities Bristol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <a href="home.html" id="logo-link">
+        <img src="Images/logo.png" alt="Medical Facilities Bristol logo">
+    </a>
+    <input type="text" id="search" placeholder="Search here...">
+    <nav class="navigation">
+        <a href="home.html" id="home">Home</a>
+        <a href="map.html" id="nav-map">Map</a>
+        <a href="Table-of-Locations.html" id="table">Table of Locations</a>
+    </nav>
+</header>
+<main>
+    <h1>Table of Locations</h1>
+    <section class="search-panel">
+        <input type="text" id="tableLocationInput" placeholder="Search by location...">
+        <input type="text" id="tableFacilityInput" placeholder="Search by facility type...">
+        <button type="button" onclick="searchTable()">Search</button>
+        <button type="button" onclick="clearTableSearch()">Clear</button>
+    </section>
+    <section id="data-summary">
+        <h2>Available Facilities</h2>
+    <table id="facilities-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Facilities will be populated here -->
+        </tbody>
+    </table>
+</main>
+<script src="tablescript.js"></script>
+<footer>
+    <div class="footer">
+        <p>2024 Medical Facilities Bristol. All rights reserved.</p>
+        <p>All data provided by Open Data Bristol.</p>
+        <a href="contact.html" class="contact-button">Contact us</a>
+    </div>
+</footer>
+</body>
+</html>
