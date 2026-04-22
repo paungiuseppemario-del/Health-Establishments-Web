@@ -24,6 +24,44 @@ Contact form may not fully work
 
 # User guide
 TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
+Use-Case Explanation (with Screenshots)
+Use-Case 1: View Homepage
 
+Steps:
+
+User opens the Health Establishment Finder website
+The homepage displays information about the system (About Us, purpose, and usage)
+User can navigate using the menu (Home, Map, Table of Locations)
+
+Figure 1: Homepage showing information about Medical Facilities Bristol
+
+Use-case2: View health establishments on the map
+Steps:
+
+User clicks Map in the navigation bar
+The system loads an interactive map
+Multiple markers appear representing health establishments
+User can zoom and explore locations
+
+Figure 2: Map view displaying health establishments across Bristol
+
+Use-Case 3: View Table of Locations
+
+Steps:
+
+User clicks Table of Locations
+A table of facilities is displayed
+User can scroll and view details such as name, type, and address
+
+Figure 3: Table showing available health establishments
+
+Steps:
+
+User enters a location in the search box
+User enters a facility type (e.g., GP, Pharmacy)
+User clicks Search
+The system filters and displays matching results
+
+Figure 4: Search and filter inputs used to find specific facilities
 ![Insert screenshots here](images/screenshot.png)
 TODO: Repeat as necessary
