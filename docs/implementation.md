@@ -38,5 +38,21 @@ provide a table listing the number of jslint warnings/reports for each module.
 
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
+Major Components of the Architecture
+
+The system is built as a multi-page web application with clearly separated components:
+
+User Interface (HTML pages)
+The application consists of multiple HTML pages (home.html, map.html, contact.html, table-of-locations.html) that represent different sections of the website. Each page provides a specific view for the user.
+Client-side Logic (main.js)
+The main.js file handles the interactive functionality of the website, such as responding to user actions, updating the DOM, and managing dynamic features like maps or tables.
+Data/Resource Layer
+Folders like map_files/ and statistic/ store supporting data used by the application, such as map information or statistical datasets.
+Static Assets
+The images/ folder contains visual resources used across the website.
+Supporting Infrastructure
+docs/ contains documentation
+.github/ supports version control and automated workflows
+nyc_output/ stores testing coverage reports
 
 ![Insert your component Diagram here](images/component.png)
