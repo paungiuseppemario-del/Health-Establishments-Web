@@ -55,4 +55,5 @@ docs/ contains documentation
 .github/ supports version control and automated workflows
 nyc_output/ stores testing coverage reports
 
+(images/component-diagram.png)
 ![Insert your component Diagram here](images/component.png)
