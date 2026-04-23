@@ -21,8 +21,6 @@ main.js: JavaScript file that controls interactivity and functionality
 
 images/: stores image assets used in the website
 
-map_files/: contains data or resources related to map features
-
 statistic/: contains data or files used for statistics features
 
 docs/: project documentation (instructions or notes)
@@ -37,8 +35,7 @@ provide a table listing the number of jslint warnings/reports for each module.
 
 
 ## Software Architecture
-TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
-Major Components of the Architecture
+
 
 The system is built as a multi-page web application with clearly separated components:
 
