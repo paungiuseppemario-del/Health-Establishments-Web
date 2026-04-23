@@ -1,6 +1,6 @@
 # Health-Establishments
 
-This App allows cylists to find nearby public bike-pumps and tools while they are on the road. 
+This App allows people to find health establishments in bristol.
 It uses Public [Health-Establishments](https://opendata.bristol.gov.uk/datasets/2abaa25b3fdb4b728be5ac5b2993a1f6_0/explore)
 from [Open Data Bristol](https://opendata.bristol.gov.uk).
 
