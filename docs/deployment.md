@@ -33,7 +33,10 @@ User opens the Health Establishment Finder website
 The homepage displays information about the system (About Us, purpose, and usage)
 User can navigate using the menu (Home, Map, Table of Locations)
 
+
 Figure 1: Homepage showing information about Medical Facilities Bristol
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/87042249-7332-45f6-a7ff-d56d5ce5dd62" />
+
 
 Use-case2: View health establishments on the map
 Steps:
@@ -44,6 +47,9 @@ Multiple markers appear representing health establishments
 User can zoom and explore locations
 
 Figure 2: Map view displaying health establishments across Bristol
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/9b903d06-2e7c-44d5-8b9f-2c9cf1fe824b" />
+
+
 
 Use-Case 3: View Table of Locations
 
@@ -54,6 +60,7 @@ A table of facilities is displayed
 User can scroll and view details such as name, type, and address
 
 Figure 3: Table showing available health establishments
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c8490b63-c07f-46c2-b5d8-76575115ecf3" />
 
 Steps:
 
@@ -63,5 +70,9 @@ User clicks Search
 The system filters and displays matching results
 
 Figure 4: Search and filter inputs used to find specific facilities
-![Insert screenshots here](images/screenshot.png)
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/75f64dc8-ea0d-4729-8440-7b03ff2f65a1" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/9dabde27-5617-4dee-a279-64ee76b1c60e" />
+
+
+
 TODO: Repeat as necessary
