@@ -13,8 +13,79 @@ The vers
 
 ## Project Structure
 
-
-
+``
+└── 📁Health-Establishments-Web-main
+    └── 📁.github
+        └── 📁workflows
+            ├── node.js.yml
+    └── 📁.nyc_output
+        └── 📁processinfo
+            ├── index.json
+    └── 📁docs
+        └── 📁images
+            ├── component.png
+            ├── context.png
+            ├── deployment.png
+            ├── design-healthestablishments.png
+            ├── screenshot.png
+            ├── sequence.png
+            ├── use-case.png
+            ├── wireframe.png
+        ├── deployment.md
+        ├── design.md
+        ├── Finisheddesignhe.png
+        ├── implementation.md
+        ├── planning.md
+        ├── requirements.md
+        ├── testing.md
+        ├── uml.asta
+        ├── uml.asta.lock
+    └── 📁e2e
+        ├── test-menu.js
+        ├── testUC1.js
+        ├── testUC2.js
+        ├── testUC3.js
+    └── 📁Images
+        ├── logo.png
+    └── 📁map_files
+        ├── leaflet.css
+        ├── leaflet.js.download
+        ├── logo.png
+        ├── script2.js.download
+        ├── style.css
+    └── 📁static
+        ├── bike.png
+        ├── script.js
+        ├── style.css
+    └── 📁test
+        ├── integration.js
+        ├── testUC1.js
+        ├── testUC2.js
+    └── 📁views
+        └── 📁templates
+            ├── head.ejs
+            ├── header.ejs
+            ├── nav.ejs
+        ├── index.ejs
+        ├── map.ejs
+        ├── search.ejs
+    ├── .eslintrc.js
+    ├── .eslintrc.json
+    ├── .gitignore
+    ├── contact.html
+    ├── home.html
+    ├── main.js
+    ├── map.html
+    ├── package-lock.json
+    ├── package.json
+    ├── ping.js
+    ├── readme.md
+    ├── script.js
+    ├── script2.js
+    ├── style.css
+    ├── Table-of-Locations.html
+    └── tablescript.js
+```
 
 
 
